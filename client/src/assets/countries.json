@@ -1,0 +1,1066 @@
+[
+    {
+      "value": "Avganistan",
+      "code": "af"
+    },
+    {
+      "value": "Albanija",
+      "code": "al"
+    },
+    {
+      "value": "Alžir",
+      "code": "dz"
+    },
+    {
+      "value": "Andora",
+      "code": "ad"
+    },
+    {
+      "value": "Angola",
+      "code": "ao"
+    },
+    {
+      "value": "Antigva i Barbuda",
+      "code": "ag"
+    },
+    {
+      "value": "Argentina",
+      "code": "ar"
+    },
+    {
+      "value": "Jermenija",
+      "code": "am"
+    },
+    {
+      "value": "Australija",
+      "code": "au"
+    },
+    {
+      "value": "Austrija",
+      "code": "at"
+    },
+    {
+      "value": "Azerbejdžan",
+      "code": "az"
+    },
+    {
+      "value": "Bahami",
+      "code": "bs"
+    },
+    {
+      "value": "Bahrein",
+      "code": "bh"
+    },
+    {
+      "value": "Bangladeš",
+      "code": "bd"
+    },
+    {
+      "value": "Barbados",
+      "code": "bb"
+    },
+    {
+      "value": "Belorusija",
+      "code": "by"
+    },
+    {
+      "value": "Belgija",
+      "code": "be"
+    },
+    {
+      "value": "Belize",
+      "code": "bz"
+    },
+    {
+      "value": "Benin",
+      "code": "bj"
+    },
+    {
+      "value": "Butan",
+      "code": "bt"
+    },
+    {
+      "value": "Bolivija (Plurinacionalna Država)",
+      "code": "bo"
+    },
+    {
+      "value": "Bosna i Hercegovina",
+      "code": "ba"
+    },
+    {
+      "value": "Bocvana",
+      "code": "bw"
+    },
+    {
+      "value": "Brazil",
+      "code": "br"
+    },
+    {
+      "value": "Brunej",
+      "code": "bn"
+    },
+    {
+      "value": "Bugarska",
+      "code": "bg"
+    },
+    {
+      "value": "Burkina Faso",
+      "code": "bf"
+    },
+    {
+      "value": "Burundi",
+      "code": "bi"
+    },
+    {
+      "value": "Zelenortska Ostrva",
+      "code": "cv"
+    },
+    {
+      "value": "Kambodža",
+      "code": "kh"
+    },
+    {
+      "value": "Kamerun",
+      "code": "cm"
+    },
+    {
+      "value": "Kanada",
+      "code": "ca"
+    },
+    {
+      "value": "Centralnoafrička Republika",
+      "code": "cf"
+    },
+    {
+      "value": "Čad",
+      "code": "td"
+    },
+    {
+      "value": "Čile",
+      "code": "cl"
+    },
+    {
+      "value": "Kina",
+      "code": "cn"
+    },
+    {
+      "value": "Kolumbija",
+      "code": "co"
+    },
+    {
+      "value": "Komori",
+      "code": "km"
+    },
+    {
+      "value": "Kongo",
+      "code": "cg"
+    },
+    {
+      "value": "Kongo, Demokratska Republika",
+      "code": "cd"
+    },
+    {
+      "value": "Kostarika",
+      "code": "cr"
+    },
+    {
+      "value": "Obala Slonovače",
+      "code": "ci"
+    },
+    {
+      "value": "Hrvatska",
+      "code": "hr"
+    },
+    {
+      "value": "Kuba",
+      "code": "cu"
+    },
+    {
+      "value": "Kipar",
+      "code": "cy"
+    },
+    {
+      "value": "Češka",
+      "code": "cz"
+    },
+    {
+      "value": "Danska",
+      "code": "dk"
+    },
+    {
+      "value": "Džibuti",
+      "code": "dj"
+    },
+    {
+      "value": "Dominika",
+      "code": "dm"
+    },
+    {
+      "value": "Dominikanska Republika",
+      "code": "do"
+    },
+    {
+      "value": "Ekvador",
+      "code": "ec"
+    },
+    {
+      "value": "Egipat",
+      "code": "eg"
+    },
+    {
+      "value": "Salvador",
+      "code": "sv"
+    },
+    {
+      "value": "Ekvatorska Gvineja",
+      "code": "gq"
+    },
+    {
+      "value": "Eritreja",
+      "code": "er"
+    },
+    {
+      "value": "Estonija",
+      "code": "ee"
+    },
+    {
+      "value": "Esvatini",
+      "code": "sz"
+    },
+    {
+      "value": "Etiopija",
+      "code": "et"
+    },
+    {
+      "value": "Fidži",
+      "code": "fj"
+    },
+    {
+      "value": "Finska",
+      "code": "fi"
+    },
+    {
+      "value": "Francuska",
+      "code": "fr"
+    },
+    {
+      "value": "Gabon",
+      "code": "ga"
+    },
+    {
+      "value": "Gambija",
+      "code": "gm"
+    },
+    {
+      "value": "Gruzija",
+      "code": "ge"
+    },
+    {
+      "value": "Nemačka",
+      "code": "de"
+    },
+    {
+      "value": "Gana",
+      "code": "gh"
+    },
+    {
+      "value": "Grčka",
+      "code": "gr"
+    },
+    {
+      "value": "Grenada",
+      "code": "gd"
+    },
+    {
+      "value": "Gvatemala",
+      "code": "gt"
+    },
+    {
+      "value": "Gvineja",
+      "code": "gn"
+    },
+    {
+      "value": "Gvineja-Bisao",
+      "code": "gw"
+    },
+    {
+      "value": "Gvajana",
+      "code": "gy"
+    },
+    {
+      "value": "Haiti",
+      "code": "ht"
+    },
+    {
+      "value": "Honduras",
+      "code": "hn"
+    },
+    {
+      "value": "Mađarska",
+      "code": "hu"
+    },
+    {
+      "value": "Island",
+      "code": "is"
+    },
+    {
+      "value": "Indija",
+      "code": "in"
+    },
+    {
+      "value": "Indonezija",
+      "code": "id"
+    },
+    {
+      "value": "Iran (Islamska Republika)",
+      "code": "ir"
+    },
+    {
+      "value": "Irak",
+      "code": "iq"
+    },
+    {
+      "value": "Irska",
+      "code": "ie"
+    },
+    {
+      "value": "Izrael",
+      "code": "il"
+    },
+    {
+      "value": "Italija",
+      "code": "it"
+    },
+    {
+      "value": "Jamajka",
+      "code": "jm"
+    },
+    {
+      "value": "Japan",
+      "code": "jp"
+    },
+    {
+      "value": "Jordan",
+      "code": "jo"
+    },
+    {
+      "value": "Kazahstan",
+      "code": "kz"
+    },
+    {
+      "value": "Kenija",
+      "code": "ke"
+    },
+    {
+      "value": "Kiribati",
+      "code": "ki"
+    },
+    {
+      "value": "Koreja (Demokratska Narodna Republika)",
+      "code": "kp"
+    },
+    {
+      "value": "Koreja, Republika",
+      "code": "kr"
+    },
+    {
+      "value": "Kuvajt",
+      "code": "kw"
+    },
+    {
+      "value": "Kirgistan",
+      "code": "kg"
+    },
+    {
+      "value": "Laoska Narodna Demokratska Republika",
+      "code": "la"
+    },
+    {
+      "value": "Letonija",
+      "code": "lv"
+    },
+    {
+      "value": "Liban",
+      "code": "lb"
+    },
+    {
+      "value": "Lesoto",
+      "code": "ls"
+    },
+    {
+      "value": "Liberija",
+      "code": "lr"
+    },
+    {
+      "value": "Libija",
+      "code": "ly"
+    },
+    {
+      "value": "Lihtenštajn",
+      "code": "li"
+    },
+    {
+      "value": "Litvanija",
+      "code": "lt"
+    },
+    {
+      "value": "Luksemburg",
+      "code": "lu"
+    },
+    {
+      "value": "Madagaskar",
+      "code": "mg"
+    },
+    {
+      "value": "Malavi",
+      "code": "mw"
+    },
+    {
+      "value": "Malezija",
+      "code": "my"
+    },
+    {
+      "value": "Maldivi",
+      "code": "mv"
+    },
+    {
+      "value": "Mali",
+      "code": "ml"
+    },
+    {
+      "value": "Malta",
+      "code": "mt"
+    },
+    {
+      "value": "Maršalova Ostrva",
+      "code": "mh"
+    },
+    {
+      "value": "Mauritanija",
+      "code": "mr"
+    },
+    {
+      "value": "Mauricijus",
+      "code": "mu"
+    },
+    {
+      "value": "Meksiko",
+      "code": "mx"
+    },
+    {
+      "value": "Mikronezija (Federativne Države)",
+      "code": "fm"
+    },
+    {
+      "value": "Moldavija, Republika",
+      "code": "md"
+    },
+    {
+      "value": "Monako",
+      "code": "mc"
+    },
+    {
+      "value": "Mongolija",
+      "code": "mn"
+    },
+    {
+      "value": "Crna Gora",
+      "code": "me"
+    },
+    {
+      "value": "Maroko",
+      "code": "ma"
+    },
+    {
+      "value": "Mozambik",
+      "code": "mz"
+    },
+    {
+      "value": "Mjanmar",
+      "code": "mm"
+    },
+    {
+      "value": "Namibija",
+      "code": "na"
+    },
+    {
+      "value": "Nauru",
+      "code": "nr"
+    },
+    {
+      "value": "Nepal",
+      "code": "np"
+    },
+    {
+      "value": "Holandija",
+      "code": "nl"
+    },
+    {
+      "value": "Novi Zeland",
+      "code": "nz"
+    },
+    {
+      "value": "Nikaragva",
+      "code": "ni"
+    },
+    {
+      "value": "Niger",
+      "code": "ne"
+    },
+    {
+      "value": "Nigerija",
+      "code": "ng"
+    },
+    {
+      "value": "Severna Makedonija",
+      "code": "mk"
+    },
+    {
+      "value": "Norveška",
+      "code": "no"
+    },
+    {
+      "value": "Oman",
+      "code": "om"
+    },
+    {
+      "value": "Pakistan",
+      "code": "pk"
+    },
+    {
+      "value": "Palau",
+      "code": "pw"
+    },
+    {
+      "value": "Panama",
+      "code": "pa"
+    },
+    {
+      "value": "Papua Nova Gvineja",
+      "code": "pg"
+    },
+    {
+      "value": "Paragvaj",
+      "code": "py"
+    },
+    {
+      "value": "Peru",
+      "code": "pe"
+    },
+    {
+      "value": "Filipini",
+      "code": "ph"
+    },
+    {
+      "value": "Poljska",
+      "code": "pl"
+    },
+    {
+      "value": "Portugal",
+      "code": "pt"
+    },
+    {
+      "value": "Katar",
+      "code": "qa"
+    },
+    {
+      "value": "Rumunija",
+      "code": "ro"
+    },
+    {
+      "value": "Ruska Federacija",
+      "code": "ru"
+    },
+    {
+      "value": "Ruanda",
+      "code": "rw"
+    },
+    {
+      "value": "Sveti Kits i Nevis",
+      "code": "kn"
+    },
+    {
+      "value": "Sveta Lucija",
+      "code": "lc"
+    },
+    {
+      "value": "Sveti Vinsent i Grenadin",
+      "code": "hn"
+    },
+    {
+      "value": "Mađarska",
+      "code": "hu"
+    },
+    {
+      "value": "Island",
+      "code": "is"
+    },
+    {
+      "value": "Indija",
+      "code": "in"
+    },
+    {
+      "value": "Indonezija",
+      "code": "id"
+    },
+    {
+      "value": "Iran (Islamska Republika)",
+      "code": "ir"
+    },
+    {
+      "value": "Irak",
+      "code": "iq"
+    },
+    {
+      "value": "Irska",
+      "code": "ie"
+    },
+    {
+      "value": "Izrael",
+      "code": "il"
+    },
+    {
+      "value": "Italija",
+      "code": "it"
+    },
+    {
+      "value": "Jamajka",
+      "code": "jm"
+    },
+    {
+      "value": "Japan",
+      "code": "jp"
+    },
+    {
+      "value": "Jordan",
+      "code": "jo"
+    },
+    {
+      "value": "Kazahstan",
+      "code": "kz"
+    },
+    {
+      "value": "Kenija",
+      "code": "ke"
+    },
+    {
+      "value": "Kiribati",
+      "code": "ki"
+    },
+    {
+      "value": "Koreja (Demokratska Narodna Republika)",
+      "code": "kp"
+    },
+    {
+      "value": "Koreja, Republika",
+      "code": "kr"
+    },
+    {
+      "value": "Kuvajt",
+      "code": "kw"
+    },
+    {
+      "value": "Kirgistan",
+      "code": "kg"
+    },
+    {
+      "value": "Laoska Narodna Demokratska Republika",
+      "code": "la"
+    },
+    {
+      "value": "Letonija",
+      "code": "lv"
+    },
+    {
+      "value": "Liban",
+      "code": "lb"
+    },
+    {
+      "value": "Lesoto",
+      "code": "ls"
+    },
+    {
+      "value": "Liberija",
+      "code": "lr"
+    },
+    {
+      "value": "Libija",
+      "code": "ly"
+    },
+    {
+      "value": "Lihtenštajn",
+      "code": "li"
+    },
+    {
+      "value": "Litvanija",
+      "code": "lt"
+    },
+    {
+      "value": "Luksemburg",
+      "code": "lu"
+    },
+    {
+      "value": "Madagaskar",
+      "code": "mg"
+    },
+    {
+      "value": "Malavi",
+      "code": "mw"
+    },
+    {
+      "value": "Malezija",
+      "code": "my"
+    },
+    {
+      "value": "Maldivi",
+      "code": "mv"
+    },
+    {
+      "value": "Mali",
+      "code": "ml"
+    },
+    {
+      "value": "Malta",
+      "code": "mt"
+    },
+    {
+      "value": "Maršalova Ostrva",
+      "code": "mh"
+    },
+    {
+      "value": "Mauritanija",
+      "code": "mr"
+    },
+    {
+      "value": "Mauricijus",
+      "code": "mu"
+    },
+    {
+      "value": "Meksiko",
+      "code": "mx"
+    },
+    {
+      "value": "Mikronezija (Federativne Države)",
+      "code": "fm"
+    },
+    {
+      "value": "Moldavija, Republika",
+      "code": "md"
+    },
+    {
+      "value": "Monako",
+      "code": "mc"
+    },
+    {
+      "value": "Mongolija",
+      "code": "mn"
+    },
+    {
+      "value": "Crna Gora",
+      "code": "me"
+    },
+    {
+      "value": "Maroko",
+      "code": "ma"
+    },
+    {
+      "value": "Mozambik",
+      "code": "mz"
+    },
+    {
+      "value": "Mjanmar",
+      "code": "mm"
+    },
+    {
+      "value": "Namibija",
+      "code": "na"
+    },
+    {
+      "value": "Nauru",
+      "code": "nr"
+    },
+    {
+      "value": "Nepal",
+      "code": "np"
+    },
+    {
+      "value": "Holandija",
+      "code": "nl"
+    },
+    {
+      "value": "Novi Zeland",
+      "code": "nz"
+    },
+    {
+      "value": "Nikaragva",
+      "code": "ni"
+    },
+    {
+      "value": "Niger",
+      "code": "ne"
+    },
+    {
+      "value": "Nigerija",
+      "code": "ng"
+    },
+    {
+      "value": "Severna Makedonija",
+      "code": "mk"
+    },
+    {
+      "value": "Norveška",
+      "code": "no"
+    },
+    {
+      "value": "Oman",
+      "code": "om"
+    },
+    {
+      "value": "Pakistan",
+      "code": "pk"
+    },
+    {
+      "value": "Palau",
+      "code": "pw"
+    },
+    {
+      "value": "Panama",
+      "code": "pa"
+    },
+    {
+      "value": "Papua Nova Gvineja",
+      "code": "pg"
+    },
+    {
+      "value": "Paragvaj",
+      "code": "py"
+    },
+    {
+      "value": "Peru",
+      "code": "pe"
+    },
+    {
+      "value": "Filipini",
+      "code": "ph"
+    },
+    {
+      "value": "Poljska",
+      "code": "pl"
+    },
+    {
+      "value": "Portugal",
+      "code": "pt"
+    },
+    {
+      "value": "Katar",
+      "code": "qa"
+    },
+    {
+      "value": "Rumunija",
+      "code": "ro"
+    },
+    {
+      "value": "Ruska Federacija",
+      "code": "ru"
+    },
+    {
+      "value": "Ruanda",
+      "code": "rw"
+    },
+    {
+      "value": "Sveti Kits i Nevis",
+      "code": "kn"
+    },
+    {
+      "value": "Sveta Lucija",
+      "code": "lc"
+    },
+    {
+      "value": "Sveti Vinsent i Grenadin",
+      "code": "vc"
+    },
+    {
+      "value": "Samoa",
+      "code": "ws"
+    },
+    {
+      "value": "San Marino",
+      "code": "sm"
+    },
+    {
+      "value": "Sao Tome i Principe",
+      "code": "st"
+    },
+    {
+      "value": "Saudijska Arabija",
+      "code": "sa"
+    },
+    {
+      "value": "Senegal",
+      "code": "sn"
+    },
+    {
+      "value": "Srbija",
+      "code": "rs"
+    },
+    {
+      "value": "Sejšeli",
+      "code": "sc"
+    },
+    {
+      "value": "Sijera Leone",
+      "code": "sl"
+    },
+    {
+      "value": "Singapur",
+      "code": "sg"
+    },
+    {
+      "value": "Slovačka",
+      "code": "sk"
+    },
+    {
+      "value": "Slovenija",
+      "code": "si"
+    },
+    {
+      "value": "Solomonska Ostrva",
+      "code": "sb"
+    },
+    {
+      "value": "Somalija",
+      "code": "so"
+    },
+    {
+      "value": "Južnoafrička Republika",
+      "code": "za"
+    },
+    {
+      "value": "Južni Sudan",
+      "code": "ss"
+    },
+    {
+      "value": "Španija",
+      "code": "es"
+    },
+    {
+      "value": "Šri Lanka",
+      "code": "lk"
+    },
+    {
+      "value": "Sudan",
+      "code": "sd"
+    },
+    {
+      "value": "Surinam",
+      "code": "sr"
+    },
+    {
+      "value": "Švedska",
+      "code": "se"
+    },
+    {
+      "value": "Švajcarska",
+      "code": "ch"
+    },
+    {
+      "value": "Sirija",
+      "code": "sy"
+    },
+    {
+      "value": "Tadžikistan",
+      "code": "tj"
+    },
+    {
+      "value": "Tanzanija, Ujedinjena Republika",
+      "code": "tz"
+    },
+    {
+      "value": "Tajland",
+      "code": "th"
+    },
+    {
+      "value": "Timor-Leste",
+      "code": "tl"
+    },
+    {
+      "value": "Togo",
+      "code": "tg"
+    },
+    {
+      "value": "Tonga",
+      "code": "to"
+    },
+    {
+      "value": "Trinidad i Tobago",
+      "code": "tt"
+    },
+    {
+      "value": "Tunis",
+      "code": "tn"
+    },
+    {
+      "value": "Turska",
+      "code": "tr"
+    },
+    {
+      "value": "Turkmenistan",
+      "code": "tm"
+    },
+    {
+      "value": "Tuvalu",
+      "code": "tv"
+    },
+    {
+      "value": "Uganda",
+      "code": "ug"
+    },
+    {
+      "value": "Ukrajina",
+      "code": "ua"
+    },
+    {
+      "value": "Ujedinjeni Arapski Emirati",
+      "code": "ae"
+    },
+    {
+      "value": "Ujedinjeno Kraljevstvo Velike Britanije i Severne Irske",
+      "code": "gb"
+    },
+    {
+      "value": "Sjedinjene Američke Države",
+      "code": "us"
+    },
+    {
+      "value": "Urugvaj",
+      "code": "uy"
+    },
+    {
+      "value": "Uzbekistan",
+      "code": "uz"
+    },
+    {
+      "value": "Vanuatu",
+      "code": "vu"
+    },
+    {
+      "value": "Venecuela (Bolivarska Republika)",
+      "code": "ve"
+    },
+    {
+      "value": "Vijetnam",
+      "code": "vn"
+    },
+    {
+      "value": "Jemen",
+      "code": "ye"
+    },
+    {
+      "value": "Zambija",
+      "code": "zm"
+    },
+    {
+      "value": "Zimbabve",
+      "code": "zw"
+    }
+  ]
