@@ -1,9 +1,10 @@
 const express = require('express');
 const router = express.Router();
+const bcrypt = require('bcrypt');
 const jwtService = require('../services/jwtService');
+
 const User = require('../database/User');
 
-//Podaci o korisniku (profil)
 router.get('/', jwtService.authenticateToken, async (req, res) => {
     try {
         let newUser = await User.findOne({email: req.user.email});
@@ -18,7 +19,6 @@ router.get('/', jwtService.authenticateToken, async (req, res) => {
     }
 });
 
-//Registracija korisnika
 router.post('/', async (req, res) => {
     if(!req.body.firstName || !req.body.lastName || !req.body.email || !req.body.password) {
         return res.status(400).end();
@@ -59,7 +59,6 @@ router.post('/', async (req, res) => {
     }
 });
 
-//Uređivanje profila
 router.put('/', jwtService.authenticateToken, async (req, res) => {
     let userUpdate = {
         firstName: req.body.firstName,
@@ -76,7 +75,6 @@ router.put('/', jwtService.authenticateToken, async (req, res) => {
     }
 });
 
-//Promena šifre
 router.put('/password', jwtService.authenticateToken, async (req, res) => {
     try {
         if(!req.body.curPassword || !req.body.newPassword || !req.body.newPassword.match(/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/)) {
