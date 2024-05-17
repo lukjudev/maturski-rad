@@ -5,18 +5,67 @@ const Apartment = require('../database/Apartment');
 const User = require('../database/User');
 const Booking = require('../database/Booking');
  
+router.get('/booking', jwtService.authenticateToken, async (req, res) => {
+    try {
+        const email = req.user.email;
+        const bookings = await Booking.find({user: email});
+        let resBookings = [];
+        for(let i = 0; i < bookings.length; i++) {
+            const apartment = await Apartment.findOne({_id: bookings[i].apartment}, "price user");
+            resBookings = [...resBookings, {
+                id: bookings[i]._id,
+                checkIn: bookings[i].checkIn,
+                checkOut: bookings[i].checkOut,
+                apartment: bookings[i].apartment,
+                host: apartment.user,
+                price: apartment.price
+            }];
+        }
+        return res.status(200).json(resBookings).end();
+    } catch(err) {
+        console.log(err);
+        return res.status(500).end();
+    }
+});
+
+router.delete('/booking/:id', jwtService.authenticateToken, async (req, res) => {
+    try {
+        const id = req.params.id;
+        const email = req.user.email;
+        const booking = await Booking.findOne({_id: id});
+        if(booking && booking.user === email) {
+            await Booking.deleteOne({_id: id});
+            return res.status(200).end();
+        }
+        const apartment = await Apartment.findOne({_id: booking.apartment});
+        if(apartment && apartment.user === email) {
+            await Booking.deleteOne({_id: id});
+            return res.status(200).end();
+        }
+        return res.status(400).end();
+    } catch(err) {
+        console.log(err);
+        return res.status(500).end();
+    }
+});
+
 router.get('/booking/:id', jwtService.authenticateToken, async (req, res) => {
     try {
         const id = req.params.id;
         const bookings = await Booking.find({apartment: id});
-        return res.status(200).json(bookings.map((booking) => {
-            return {
-                user: booking.user,
-                apartment: booking.apartment,
-                checkIn: booking.checkIn,
-                checkOut: booking.checkOut
-            }
-        })).end();
+        let resBookings = [];
+        for(let i = 0; i < bookings.length; i++) {
+            const user = await User.findOne({email: bookings[i].user});
+            resBookings = [...resBookings, {
+                id: bookings[i]._id,
+                user: bookings[i].user,
+                firstName: user.firstName,
+                lastName: user.lastName,
+                checkIn: bookings[i].checkIn,
+                checkOut: bookings[i].checkOut
+            }];
+        }
+        return res.status(200).json(resBookings).end();
     } catch(err) {
         console.log(err);
         return res.status(500).end();
@@ -29,11 +78,6 @@ router.post('/book', jwtService.authenticateToken, async (req, res) => {
         if(!req.body.apartment || !req.body.checkIn || !req.body.checkOut) {
             return res.status(400).end();
         }
-        // const bookings = await Booking.find({apartment: req.body.apartment});
-        // bookings.forEach((booking) => {
-        //     console.log(booking);
-        // });
-        //provera da li je moguce rezervisati
         const checkIn = new Date(req.body.checkIn);
         const checkOut = new Date(req.body.checkOut);
         (await Booking.find({apartment: req.body.apartment})).forEach((el) => {
@@ -76,7 +120,7 @@ router.get('/single/:id', jwtService.authenticateToken, async (req, res) => {
         const id = req.params.id;
         const email = req.user.email;
         const data = await Apartment.findOne({_id: id});
-        const user = await User.findOne({email: email});
+        const user = await User.findOne({email: data.user});
         return res.status(200).json({
             title: data.title,
             description: data.description,

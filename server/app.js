@@ -20,16 +20,6 @@ app.use(cors({
 //Povezivanje sa bazom
 db();
 
-// const User = require('./database/User');
-// const user = new User({
-//     firstName: "Marko",
-//     lastName: "Babić",
-//     email: "markobabic123@gmail.com",
-//     password: "pass123"
-// });
-
-// user.save().then(() => console.log("bravo!"));
-
 app.use('/api/auth', authController);
 app.use('/api/user', userController);
 app.use('/api/apartment', apartmentController);

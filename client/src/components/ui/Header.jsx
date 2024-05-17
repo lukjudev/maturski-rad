@@ -1,7 +1,6 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { Button } from './button'
-import { Telescope, Search, Menu, User, Bed, BedDouble, CalendarClock, LogOut, TentTree} from 'lucide-react';
-import { Input } from './input';
+import { Menu, User, Bed, BedDouble, CalendarClock, LogOut, TentTree} from 'lucide-react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import {
   DropdownMenu,
@@ -11,7 +10,6 @@ import {
   DropdownMenuLabel,
   DropdownMenuPortal,
   DropdownMenuSeparator,
-  DropdownMenuShortcut,
   DropdownMenuSub,
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,

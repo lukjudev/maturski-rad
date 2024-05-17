@@ -36,6 +36,7 @@ export default function Apartment() {
   const [images, setImages] = useState([]);
   const [editable, setEditable] = useState(false);
   const [unavailableDays, setUnavailableDays] = useState([]);
+  const [bookings, setBookings] = useState([]);
   const navigate = useNavigate();
 
   const { id } = useParams();
@@ -90,6 +91,7 @@ export default function Apartment() {
             }
           })
           setUnavailableDays(days);
+          setBookings(res.data);
           setLoading(false);
         } else {
           toast.error("Greška!");
@@ -106,7 +108,7 @@ export default function Apartment() {
 
   return (
       <div className="container">
-        <p className="text-2xl font-bold py-6">{title}</p>
+        <p className="text-2xl font-medium py-6">{title}</p>
         <div className="grid md:grid-cols-2 items-center gap-2">
             <div className="aspect-square max-w bg-slate-500">
                 {images.length !== 5 ? <></> : <img src={images[0]}  className="w-[100%] object-fill"/>}
@@ -128,24 +130,24 @@ export default function Apartment() {
         </div>
         <div className="grid md:grid-cols-2 items-center gap-2">
           <div>
-            <p className="text-xl font-bold pt-6">{address}, {countriesMap.filter((obj) => obj.code === country)[0].value}</p>
+            <p className="text-xl font-medium pt-6">{address}, {countriesMap.filter((obj) => obj.code === country)[0].value}</p>
             <p className="pt-2 pb-6">{capacity} gostiju - {rooms} sobe - {bathroom} kupatila</p>
             <hr />
             <div className="flex items-center py-6">
               <Avatar>
-                <AvatarFallback>{firstName[0]}{lastName[0]}</AvatarFallback>
+                <AvatarFallback>{firstName[0].toUpperCase()}{lastName[0].toUpperCase()}</AvatarFallback>
               </Avatar>
-              <p className="text-xl font-bold pl-3">{firstName} {lastName}</p>
+              <p className="text-xl font-medium pl-3">{firstName} {lastName}</p>
             </div>
             <hr />
             <div className="py-6">
-              <p className="font-bold text-xl">O mestu</p>
+              <p className="font-medium text-xl">O mestu</p>
               <p className="mt-3">{description}</p>
             </div>
             <hr />
           </div>
           <div>
-            <ApartmentCard unavailableDays={unavailableDays} accessToken={accessToken} id={id} price={price} editable={editable}/>
+            <ApartmentCard setBookings={setBookings} bookings={bookings} unavailableDays={unavailableDays} accessToken={accessToken} id={id} price={price} editable={editable}/>
           </div>
         </div>
     </div>
