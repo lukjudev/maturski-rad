@@ -1,12 +1,3 @@
-import Header from "@/components/ui/Header";
-import { Card, CardContent } from "@/components/ui/card"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
 import { useContext, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
@@ -71,7 +62,6 @@ export default function Apartment() {
         setLastName(data.lastName);
       } else {
         navigate("/404")
-        //toast.error("Greška!");
       }
 
       axios.get(
